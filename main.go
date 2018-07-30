@@ -9,5 +9,7 @@ func main() {
 			"msg": "pong",
 		})
 	})
+
+	println("run...")
 	r.Run(":3000")
 }
